@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://popotan2542.github.io',
-	base: '/popolog',
+	// base: '/popolog',
 	integrations: [mdx(), sitemap()],
 });
